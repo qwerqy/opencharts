@@ -1,16 +1,18 @@
 'use client'
 
-import { Avatar } from '@/components/avatar'
+import { getEvents } from '@/data'
 import {
+  Avatar,
   Dropdown,
   DropdownButton,
   DropdownDivider,
   DropdownItem,
   DropdownLabel,
   DropdownMenu,
-} from '@/components/dropdown'
-import { Navbar, NavbarItem, NavbarSection, NavbarSpacer } from '@/components/navbar'
-import {
+  Navbar,
+  NavbarItem,
+  NavbarSection,
+  NavbarSpacer,
   Sidebar,
   SidebarBody,
   SidebarFooter,
@@ -18,11 +20,10 @@ import {
   SidebarHeading,
   SidebarItem,
   SidebarLabel,
+  SidebarLayout,
   SidebarSection,
   SidebarSpacer,
-} from '@/components/sidebar'
-import { SidebarLayout } from '@/components/sidebar-layout'
-import { getEvents } from '@/data'
+} from '@dashboard-kit/ui'
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronDownIcon,

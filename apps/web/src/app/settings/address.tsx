@@ -1,8 +1,7 @@
 'use client'
 
-import { Input } from '@/components/input'
-import { Listbox, ListboxLabel, ListboxOption } from '@/components/listbox'
 import { getCountries } from '@/data'
+import { Input, Listbox, ListboxLabel, ListboxOption } from '@dashboard-kit/ui'
 import { useState } from 'react'
 
 export function Address() {
@@ -20,7 +19,7 @@ export function Address() {
       />
       <Input aria-label="City" name="city" placeholder="City" defaultValue="Toronto" className="col-span-2" />
       <Listbox aria-label="Region" name="region" placeholder="Region" defaultValue="Ontario">
-        {country.regions.map((region) => (
+        {country?.regions.map((region) => (
           <ListboxOption key={region} value={region}>
             <ListboxLabel>{region}</ListboxLabel>
           </ListboxOption>

@@ -1,10 +1,18 @@
-import { Avatar } from '@/components/avatar'
-import { Badge } from '@/components/badge'
-import { Divider } from '@/components/divider'
-import { Heading, Subheading } from '@/components/heading'
-import { Select } from '@/components/select'
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
 import { getRecentOrders } from '@/data'
+import {
+  Avatar,
+  Badge,
+  Divider,
+  Heading,
+  Select,
+  Subheading,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@dashboard-kit/ui'
 
 export function Stat({ title, value, change }: { title: string; value: string; change: string }) {
   return (

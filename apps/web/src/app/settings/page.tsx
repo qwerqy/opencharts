@@ -1,12 +1,16 @@
-import { Button } from '@/components/button'
-import { Checkbox, CheckboxField } from '@/components/checkbox'
-import { Divider } from '@/components/divider'
-import { Label } from '@/components/fieldset'
-import { Heading, Subheading } from '@/components/heading'
-import { Input } from '@/components/input'
-import { Select } from '@/components/select'
-import { Text } from '@/components/text'
-import { Textarea } from '@/components/textarea'
+import {
+  Button,
+  Checkbox,
+  CheckboxField,
+  Divider,
+  Heading,
+  Input,
+  Label,
+  Select,
+  Subheading,
+  Text,
+  Textarea,
+} from '@dashboard-kit/ui'
 import type { Metadata } from 'next'
 import { Address } from './address'
 

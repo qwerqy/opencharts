@@ -1,5 +1,5 @@
 {
-  "name": "@opencharts/web",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,10 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@dashboard-kit/eslint-config": "*",
+    "@dashboard-kit/typescript-config": "*",
+    "@dashboard-kit/tailwind-config": "*",
+    "@dashboard-kit/ui": "*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

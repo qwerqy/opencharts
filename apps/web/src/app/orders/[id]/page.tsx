@@ -1,11 +1,16 @@
-import { Avatar } from '@/components/avatar'
-import { Badge } from '@/components/badge'
-import { Button } from '@/components/button'
-import { DescriptionDetails, DescriptionList, DescriptionTerm } from '@/components/description-list'
-import { Divider } from '@/components/divider'
-import { Heading, Subheading } from '@/components/heading'
-import { Link } from '@/components/link'
 import { getOrder } from '@/data'
+import {
+  Avatar,
+  Badge,
+  Button,
+  DescriptionDetails,
+  DescriptionList,
+  DescriptionTerm,
+  Divider,
+  Heading,
+  Link,
+  Subheading,
+} from '@dashboard-kit/ui'
 import { BanknotesIcon, CalendarIcon, ChevronLeftIcon, CreditCardIcon } from '@heroicons/react/16/solid'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'

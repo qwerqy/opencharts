@@ -1,12 +1,23 @@
 {
-  "name": "charts-project",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:qwerqy/opencharts.git",
-  "author": "Amin <amnrsln@gmail.com>",
-  "license": "MIT",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+	"name": "dashboad-kit",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"lint": "turbo lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+	},
+	"devDependencies": {
+		"prettier": "^3.2.5",
+		"turbo": "^2.0.11",
+		"typescript": "^5.4.5"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"packageManager": "yarn@1.22.22",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	]
 }

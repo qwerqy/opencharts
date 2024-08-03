@@ -1,10 +1,19 @@
 import { Stat } from '@/app/page'
-import { Badge } from '@/components/badge'
-import { Button } from '@/components/button'
-import { Heading, Subheading } from '@/components/heading'
-import { Link } from '@/components/link'
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
+
 import { getEvent, getEventOrders } from '@/data'
+import {
+  Badge,
+  Button,
+  Heading,
+  Link,
+  Subheading,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@dashboard-kit/ui'
 import { ChevronLeftIcon } from '@heroicons/react/16/solid'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'

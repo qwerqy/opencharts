@@ -1,8 +1,16 @@
-import { Avatar } from '@/components/avatar'
-import { Button } from '@/components/button'
-import { Heading } from '@/components/heading'
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
 import { getOrders } from '@/data'
+import {
+  Avatar,
+  Button,
+  Heading,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@dashboard-kit/ui'
+
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
