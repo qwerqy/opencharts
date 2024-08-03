@@ -1,5 +1,4 @@
-import { Stat } from '@/app/page'
-
+import { Stat } from '@/components/Stat'
 import { getEvent, getEventOrders } from '@/data'
 import {
   Badge,
