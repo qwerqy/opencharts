@@ -1,5 +1,5 @@
 {
-	"name": "@dashboard-kit/eslint-config",
+	"name": "@opencharts/eslint-config",
 	"version": "0.0.0",
 	"private": true,
 	"files": [

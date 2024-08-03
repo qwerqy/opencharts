@@ -1,5 +1,5 @@
 {
-	"name": "@dashboard-kit/ui",
+	"name": "@opencharts/ui",
 	"version": "0.0.0",
 	"private": true,
 	"exports": {
@@ -11,9 +11,9 @@
 		"generate:component": "turbo gen react-component"
 	},
 	"devDependencies": {
-		"@dashboard-kit/eslint-config": "*",
-		"@dashboard-kit/tailwind-config": "*",
-		"@dashboard-kit/typescript-config": "*",
+		"@opencharts/eslint-config": "*",
+		"@opencharts/tailwind-config": "*",
+		"@opencharts/typescript-config": "*",
 		"@turbo/gen": "^1.12.4",
 		"@types/eslint": "^8.56.5",
 		"@types/node": "^20.11.24",

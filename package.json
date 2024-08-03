@@ -1,5 +1,5 @@
 {
-	"name": "dashboad-kit",
+	"name": "opencharts",
 	"private": true,
 	"scripts": {
 		"build": "turbo build",

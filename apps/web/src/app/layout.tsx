@@ -1,5 +1,5 @@
 import { getEvents } from '@/data'
-import '@dashboard-kit/ui/styles/tailwind.css'
+import '@opencharts/ui/styles/tailwind.css'
 import type { Metadata } from 'next'
 import type React from 'react'
 import { ApplicationLayout } from './application-layout'

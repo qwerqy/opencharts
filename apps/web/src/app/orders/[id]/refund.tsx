@@ -15,7 +15,7 @@ import {
   Input,
   Label,
   Select,
-} from '@dashboard-kit/ui'
+} from '@opencharts/ui'
 import { useState } from 'react'
 
 export function RefundOrder({ amount, ...props }: { amount: string } & React.ComponentPropsWithoutRef<typeof Button>) {

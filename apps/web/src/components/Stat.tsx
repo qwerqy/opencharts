@@ -1,4 +1,4 @@
-import { Badge, Divider } from '@dashboard-kit/ui'
+import { Badge, Divider } from '@opencharts/ui'
 
 export function Stat({ title, value, change }: { title: string; value: string; change: string }) {
   return (

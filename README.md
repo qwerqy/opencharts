@@ -11,13 +11,11 @@ This monorepo includes the following packages/apps:
 ### Apps and Packages
 
 - `web`: the dashboard web application
-- `@dashboard-kit/ui`: a React component library built with `tailwind`
-- `@dashboard-kit/eslint-config`: `eslint` configurations (includes
+- `@opencharts/ui`: a React component library built with `tailwind`
+- `@opencharts/eslint-config`: `eslint` configurations (includes
   `eslint-config-next` and `eslint-config-prettier`)
-- `@dashboard-kit/typescript-config`: `tsconfig.json`s used throughout the
-  monorepo
-- `@dashboard-kit/tailwind-config`: Config for tailwind to be used in the
-  project
+- `@opencharts/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@opencharts/tailwind-config`: Config for tailwind to be used in the project
 
 ### Utilities
 

@@ -10,7 +10,7 @@ import {
   Subheading,
   Text,
   Textarea,
-} from '@dashboard-kit/ui'
+} from '@opencharts/ui'
 import type { Metadata } from 'next'
 import { Address } from './address'
 

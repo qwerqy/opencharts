@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-import tailwindConfig from '@dashboard-kit/tailwind-config/tailwind.config'
+import tailwindConfig from '@opencharts/tailwind-config/tailwind.config'
 
 const config: Config = {
 	...tailwindConfig,

@@ -1,4 +1,4 @@
-import postcssConfig from '@dashboard-kit/tailwind-config/postcss.config'
+import postcssConfig from '@opencharts/tailwind-config/postcss.config'
 
 const config = postcssConfig
 

@@ -11,14 +11,14 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@dashboard-kit/ui'
+} from '@opencharts/ui'
 
 export default async function Home() {
   let orders = await getRecentOrders()
 
   return (
     <>
-      <Heading>Good afternoon, Erica</Heading>
+      <Heading>Welcome to Open Charts</Heading>
       <div className="mt-8 flex items-end justify-between">
         <Subheading>Overview</Subheading>
         <div>

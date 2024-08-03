@@ -1,4 +1,5 @@
 import { getOrder } from '@/data'
+import { BanknotesIcon, CalendarIcon, ChevronLeftIcon, CreditCardIcon } from '@heroicons/react/16/solid'
 import {
   Avatar,
   Badge,
@@ -10,8 +11,7 @@ import {
   Heading,
   Link,
   Subheading,
-} from '@dashboard-kit/ui'
-import { BanknotesIcon, CalendarIcon, ChevronLeftIcon, CreditCardIcon } from '@heroicons/react/16/solid'
+} from '@opencharts/ui'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { RefundOrder } from './refund'

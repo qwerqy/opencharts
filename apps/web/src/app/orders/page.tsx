@@ -1,15 +1,5 @@
 import { getOrders } from '@/data'
-import {
-  Avatar,
-  Button,
-  Heading,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from '@dashboard-kit/ui'
+import { Avatar, Button, Heading, Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@opencharts/ui'
 
 import type { Metadata } from 'next'
 

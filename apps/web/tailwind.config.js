@@ -1,1 +1,1 @@
-module.exports = require('@dashboard-kit/tailwind-config/tailwind.config')
+module.exports = require('@opencharts/tailwind-config/tailwind.config')

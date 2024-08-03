@@ -1,5 +1,6 @@
 import { Stat } from '@/components/Stat'
 import { getEvent, getEventOrders } from '@/data'
+import { ChevronLeftIcon } from '@heroicons/react/16/solid'
 import {
   Badge,
   Button,
@@ -12,8 +13,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@dashboard-kit/ui'
-import { ChevronLeftIcon } from '@heroicons/react/16/solid'
+} from '@opencharts/ui'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 

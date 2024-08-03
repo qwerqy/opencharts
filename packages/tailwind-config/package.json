@@ -1,5 +1,5 @@
 {
-	"name": "@dashboard-kit/tailwind-config",
+	"name": "@opencharts/tailwind-config",
 	"version": "1.0.0",
 	"private": true,
 	"files": [

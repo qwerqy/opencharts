@@ -1,1 +1,1 @@
-module.exports = require('@dashboard-kit/tailwind-config/postcss.config')
+module.exports = require('@opencharts/tailwind-config/postcss.config')

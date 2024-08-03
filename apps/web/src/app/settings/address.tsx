@@ -1,7 +1,7 @@
 'use client'
 
 import { getCountries } from '@/data'
-import { Input, Listbox, ListboxLabel, ListboxOption } from '@dashboard-kit/ui'
+import { Input, Listbox, ListboxLabel, ListboxOption } from '@opencharts/ui'
 import { useState } from 'react'
 
 export function Address() {

@@ -1,4 +1,6 @@
 import { getEvents } from '@/data'
+import { Button, Input, Select } from '@headlessui/react'
+import { EllipsisVerticalIcon, MagnifyingGlassIcon } from '@heroicons/react/16/solid'
 import {
   Badge,
   Divider,
@@ -8,9 +10,7 @@ import {
   DropdownMenu,
   Heading,
   InputGroup,
-} from '@dashboard-kit/ui'
-import { Button, Input, Select } from '@headlessui/react'
-import { EllipsisVerticalIcon, MagnifyingGlassIcon } from '@heroicons/react/16/solid'
+} from '@opencharts/ui'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 

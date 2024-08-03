@@ -1,5 +1,5 @@
 {
-	"extends": "@dashboard-kit/typescript-config/react-library.json",
+	"extends": "@opencharts/typescript-config/react-library.json",
 	"compilerOptions": {
 		"outDir": "dist"
 	},
